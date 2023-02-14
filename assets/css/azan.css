@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    display: flex;
+}
+.azan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 29px 27px 29px 27px;
+    gap: 1rem;
+    background-color: #FAF0E0;
+    background-image: url(../../images/bg-prayer-time.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.azan .title{
+    color: #000;
+    font-family: "El Messiri", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.right_scn{
+    width:33%;
+    min-width: 300px;
+}
+.left_scn{
+    width: 50%;
+    min-width: 300px;
+}
+.select2.select2-container{
+   width: 100%!important;
+}
+
+
+.select2-dropdown{
+   top: 5px;
+   border: 0;
+   box-shadow: 0 0 10px rgba(0,0,0,.1);
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #db9e30;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 10px;
+    right: 10px;
+}
+
+.select2-search--dropdown {
+    margin-bottom: 10px;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border-radius: 10px;
+}
+.title{
+    font-family: "El Messiri", Sans-serif;
+}
+section{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+.date_day{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.devider_date{
+    width: 60%;
+}
+.header_info{
+    width: 100%;
+}
+.header_info h2{
+    width: 50%;
+    min-width: 150px;
+}
+.header_info h2:nth-child(2){
+    place-self: end;
+}
+.header_info div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header_info div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mwaqeet{
+    width: 100%;
+}
+#mwaqeet li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-style: dashed;
+    border-width: 0px 0px 1px 0px;
+    border-color: #DB9E30;
+    line-height: 50px;
+}
+.api_link{
+    color: #DB9E30;
+}
+#mwaqeet li span:first-child{
+    color: #DB9E30;
+    font-family: "El Messiri", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+#mwaqeet li span:nth-child(2){
+    color: #000;
+    font-family: "El Messiri", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    color: #fff;
+    font-family: "PT Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.welcome{
+    color: #DB9E30;
+    font-family: "PT Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.left_scn .title{
+    color: #000;
+    font-family: "El Messiri", Sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.devider{
+    width: 180px;
+    margin: 20px 0;
+}
+
+p{
+    text-align: left;
+    color: #817B70;
+    font-family: "PT Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}

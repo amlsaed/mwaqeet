@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azan</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/azan.css">
+
+</head>
+<body>
+    <section>
+        <div  class="left_scn">
+            <h5 class="welcome">Welcome</h5>
+            <h3 class="title">Welcome to Prayer Times API</h3>
+            <img class="devider" src="./images/devider2.svg" alt="">
+            <p class="paragraph">
+                The API has several endpoints to assist developers. Note that all the endpoints return JSON and are available over http and https.
+
+                Please note that prayer timings might not always match your local mosque or government authority.
+                 Their timings are likely tuned or adjusted. Please see <a class="api_link" href="https://aladhan.com/calculation-methods">https://aladhan.com/calculation-methods</a>  for more details.
+            </p>
+
+        </div>
+        <div class="right_scn">
+            <div id="azan" class="azan">
+                <div class="header_info">
+                    <div>
+                        <h2 class="title">Prayer Times</h2>
+                        <h2 class="country_title">
+                                    <div id="filter" class="filter">
+                                    <select name="" id="sel_city" ></select>
+                                    </div>
+                        </h2>
+                    </div>
+                    <div>
+                        <span class="date_day">Tue 14 Feb</span>
+                        <img class="devider_date" src="./images/devider2.svg" alt="">
+                    </div>
+                </div>
+                
+                <div id="mwaqeet">
+                    <ul class="prayer-times">
+                        <li id="fajr"><span class="thm-clr">Fajar</span><span class="">03:58 am</span></li>
+                        <li id="Sunrise"><span class="thm-clr">Sunrise</span><span>05:31 am</span></li>
+                        <li id="Zuhr"><span class="thm-clr">Zuhr</span><span>12:47 pm</span></li>
+                        <li id="Asr"><span class="thm-clr">Asr</span><span>05:53 pm</span></li>
+                        <li id="Maghrib"><span class="thm-clr">Maghrib</span><span>08:04 pm</span></li>
+                        <li id="Isha"><span class="thm-clr">Isha</span><span>09:37 pm</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+   
+    <script src="./assets/js/script.js"></script>
+    <script>
+      
+    </script>
+</body>
+</html>
