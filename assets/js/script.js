@@ -37,7 +37,7 @@
     $("#sel_city").on("change",function(){
      parms.country =  sel_city.value;
      parms.city = this.options[this.selectedIndex].getAttribute("city");
-     axios.get('http://api.aladhan.com/v1/timingsByCity',{params:parms})
+     axios.get('https://api.aladhan.com/v1/timingsByCity',{params:parms})
      .then(function (response) {
        // handle success
        let options;
@@ -71,7 +71,7 @@ function getAzan(){
     country:'SA',
     city:"Riyadh"
    }
-    axios.get('http://api.aladhan.com/v1/timingsByCity',{params:parms})
+    axios.get('https://api.aladhan.com/v1/timingsByCity',{params:parms})
    .then(function (response) {
      // handle success
      let options;
